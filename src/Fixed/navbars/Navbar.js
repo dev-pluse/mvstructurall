@@ -43,7 +43,7 @@ function Navbar() {
       </ul>
       
     </nav>
-    <h1 className='h-18'></h1>
+    <hr className='h-18'/>
     </div>
   )
 }

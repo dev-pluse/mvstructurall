@@ -184,18 +184,3 @@ export default Courses
 
 
 
-{/* <div className=' flex flex-row justify-around m-4 p-1 py-10'>
-<div className='text-sm '>
-  <h1>CIVIL ENGINEERING FAMILY-CAREER PATHS</h1>
-
-</div>
-<div>
-  <h1>CIVIL ENGINEERING FAMILY-CAREER PATHS </h1>
-
-</div>
-<div>
-  <h1>CIVIL ENGINEERING FAMILY-CAREER PATHS </h1>
-
-</div>
-
-</div> */}
