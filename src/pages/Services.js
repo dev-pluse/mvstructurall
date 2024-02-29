@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 function Services() {
   const navigate=useNavigate()
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white overflow-x-hidden">
       <div className="justify-center text-center">
         <h1 className="text-sm md:text-4xl font-bold items-center pl-50  border-b-4 p-10"> Our Services</h1>
       </div>

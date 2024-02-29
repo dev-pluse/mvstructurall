@@ -1,5 +1,6 @@
 import React from "react";
 import t from '../assets/trainer.png'
+import pa from '../assets/newassets/WhatsApp Image 2024-02-28 at 6.42.29 PM.jpeg'
 
 function About() {
   return (
@@ -19,6 +20,8 @@ function About() {
       </div>
  
       <img className="p-20" src={t} alt=""/>
+
+      <img className="p-20" src={pa} alt=""/>
 
 
 

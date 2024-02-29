@@ -11,7 +11,47 @@ import se from '../assets/modueimages/pexels-pixabay-33266.jpg'
 function Courses() {
   const navigate=useNavigate()
   return (
-    <div className='bg-black '>
+    <div className='bg-black overflow-x-hidden'>
+
+
+
+  <div className=" block md:flex md:flex-col lg:text-left md:space-y-16 md:items-center md:text-center w-full h-1/3 md:h-screen p-10 ">
+    <div className="">
+     
+      <li className="mt-3 capitalize text-center text-black">
+        
+        
+      </li>
+      <h1 className="text-blue-700 text-md md:text-5xl text-center uppercase">
+        Offering Courses
+      </h1>
+      
+    </div>
+    <div className="">
+      <ul className="bg-blue-500  p-10 md:p-20 rounded-3xl capitalize text-md md:text-2xl shadow-lg shadow-blue-700 list-disc ">
+        <li className='md:py-1'>Site Engineering</li>
+        <li className='md:py-1'> Structural Engineering</li>
+        <li className='md:py-1'> Planing Engineering    </li>
+        <li className='md:py-1'> Billing Engineering  </li>
+        <li className='md:py-1'>  Project management
+  </li>
+        <li className='md:py-1'> Quantity Surveying   </li>
+        <li className='md:py-1'>  IConstruction industrial Workshops </li>
+
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
     <div className=" block md:flex md:flex-col lg:text-left md:space-y-16 md:items-center md:text-center w-full h-1/3 md:h-screen p-10 ">
     <div className="">
      
@@ -38,6 +78,8 @@ function Courses() {
       </ul>
     </div>
   </div>
+
+
 
   <div className='mt-5 bg-black text-white md:mt-24 md:p-10'>
 
@@ -174,13 +216,3 @@ function Courses() {
 }
 
 export default Courses
-
-
-
-
-
-
-
-
-
-

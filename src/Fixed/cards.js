@@ -8,7 +8,7 @@ import {
    
   export function CardWithLink() {
     return (
-        <div className="mt-48 md:mt-5">
+        <div className="mt-48 md:mt-5 -m-2">
           
                <h1 className=" text-center font-bold text-2xl text-black"><span className=" border-b-4 border-blue-700 text-blue-700">MVS Services    </span></h1>
         <div className=" flex md:flex-row flex-col m-10 md:px-32 justify-between">
