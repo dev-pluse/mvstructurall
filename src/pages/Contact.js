@@ -85,7 +85,7 @@ export default Contact; */
 
 
 import vc from '../assets/newassets/visting card.jpg'
-
+import {Helmet} from 'react-helmet'
 import React from "react";
 import { useState } from "react";
 import { db}  from "../firebaseconfig";
@@ -109,16 +109,35 @@ const Contact = () => {
     setTextarea('');
   }
   return (
-    <div>   <div
+    <div className='overflow-x-hidden'> 
+        <Helmet>
+        <title>contact us</title>
+        <meta
+          name="description"
+          content=" we pride ourselves on delivering innovative and sustainable
+          solutions in civil and structural engineering. With a team of
+          experienced and highly skilled professionals, we are committed to."
+        />
+        <link rel="canonical" href="https://mvstructurall.com/" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        ></meta>
+      </Helmet>
+      
+      
+      
+      
+        <div
       name="contact"
-      className="w-full h-screen bg-black p-4 text-white"
+      className="w-full h-screen bg-black p-4 text-white "
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-        <div className="pb-8">
+        <div className="pb-5">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Contact
+            
           </p>
-          <p className="py-6 text-center text-2xl md:pt-12 mt-10">we will reach you soon</p>
+          <p className="py-6 text-center text-2xl md:pt-12 md:mt-10 -mt-32">we reach you soon</p>
         </div>
         <div className="flex justify-center items-center">
         <form className="flex flex-col w-full md:w-1/2" onSubmit={handlesubmit}>

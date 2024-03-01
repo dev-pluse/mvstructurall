@@ -1,4 +1,5 @@
 import React from 'react'
+import {Helmet} from 'react-helmet'
 import im from '../assets/pexels-fauxels-3182812.jpg'
 import { useNavigate } from 'react-router-dom'
 import rnr from '../assets/modueimages/pexels-anamul-rezwan-1216589.jpg'
@@ -12,6 +13,19 @@ function Courses() {
   const navigate=useNavigate()
   return (
     <div className='bg-black overflow-x-hidden'>
+        <Helmet>
+        <title>Courses</title>
+        <meta
+          name="description"
+          content=" we pride ourselves on delivering innovative and sustainable
+          solutions in civil and structural engineering.- Offering Courses-  Offering Master Courses.SITE VISIT-REAL TIME EXPERINCE "
+        />
+        <link rel="canonical" href="https://mvstructurall.com/" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        ></meta>
+      </Helmet>
 
 
 

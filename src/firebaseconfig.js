@@ -2,21 +2,19 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
     
-
-
 const firebaseConfig = {
 
-    apiKey: "AIzaSyA2biRQ9P6MkoU4Q_36JqyOW7B9GhMv2tE",
+    apiKey: "AIzaSyBWrTrngpyvdvPdKHoaYfir7-b62oSrzeM",
   
-    authDomain: "svrtest-8c899.firebaseapp.com",
+    authDomain: "first-project-1d9ec.firebaseapp.com",
   
-    projectId: "svrtest-8c899",
+    projectId: "first-project-1d9ec",
   
-    storageBucket: "svrtest-8c899.appspot.com",
+    storageBucket: "first-project-1d9ec.appspot.com",
   
-    messagingSenderId: "680600583933",
+    messagingSenderId: "895318265674",
   
-    appId: "1:680600583933:web:b464160a2eab5410768894"
+    appId: "1:895318265674:web:991ae4fcc8a1874123bbb3"
   
   };
   
