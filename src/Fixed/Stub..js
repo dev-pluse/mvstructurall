@@ -8,7 +8,7 @@ const Stub = () => {
 
 
    <div className='bg-black  text-white p-2 md:p-4 '>
-    <h1 className=' justify-center mt-16 md:mt-32 md:ml-20 md:text-5xl text-white'>students <span className='text-blue-700 border-b-4 border-blue-700'>Benefits</span></h1>
+    <h1 className=' justify-center mt-16 md:mt-32 md:ml-20 md:text-5xl text-white'>Special <span className='text-blue-700 border-b-4 border-blue-700'>Features</span></h1>
     </div>
 
 

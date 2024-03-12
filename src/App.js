@@ -1,6 +1,6 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Home';
+import HomeInfo from './pages/Home';
 import Contact from './pages/Contact';
 import Services from './pages/Services';
 import Locations from './pages/Locations';
@@ -21,7 +21,7 @@ const App = () => {
        <ScrollToTop/>
       <Routes>
         
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<HomeInfo/>} />
         
         <Route path='/services' element={<Services />} />
         <Route path='/courses' element={<Courses />} />

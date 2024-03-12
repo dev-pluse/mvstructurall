@@ -9,8 +9,9 @@ import { useNavigate } from "react-router-dom";
 import w1 from "../assets/wave.svg";
 import Stub from "../Fixed/Stub.";
 
-import ai from "../assets/modueimages/pexels-pixabay-159358(1).jpg";
+import ai from "../assets/pexels-airam-datoon-15189552.jpg";
 import si from "../assets/modueimages/pexels-yury-kim-585418.jpg";
+import { CarouselWithContent } from "../Fixed/car";
 
 const HomeInfo = () => {
   const navigate = useNavigate();
@@ -38,16 +39,17 @@ const HomeInfo = () => {
           content="width=device-width, initial-scale=1"
         ></meta>
       </Helmet>
-
-      <div className="block md:flex lg:text-left md:justify-between  md:items-center md:text-center w-full h-screen p-10">
+      
+   <CarouselWithContent/>
+      <div className="block md:flex lg:text-left md:justify-between  md:items-center md:text-center w-full h-screen p-10 bg-white">
         <div className="hidden md:block">
           <h1 className="capitalize text-blue-700 text-md md:text-5xl">
-            get your carrer boost with MVStructurall Engineering
+            get your career boost with MVStructurall Engineering 
           </h1>
-          <h4 className="mt-3 capitalize text-white text-capitalize">
-            let's build your career towardsSafety,Stability,Sustainability
+          <h4 className="mt-3 capitalize text-capitalize">
+            
           </h4>
-          <h4 className="mt-3 capitalize text-white">
+          <h4 className="mt-3 capitalize text-black text-md">
             Your Trusted Partner in Civil and Structurall Engineering
             Excellence!
           </h4>
@@ -71,10 +73,10 @@ const HomeInfo = () => {
           <h1 className="capitalize text-blue-700 text-md md:text-5xl mt-14 text-xl">
             get your carrer boost with MVStructurall Engineering
           </h1>
-          <h4 className="mt-5 capitalize text-white text-capitalize text-sm">
-            let's build your career towardsSafety,Stability,Sustainability
+          <h4 className="mt-5 capitalize  text-capitalize text-sm">
+          
           </h4>
-          <h4 className="mt-3 capitalize text-white py-2 text-sm">
+          <h4 className="mt-3 capitalize text-black py-2 text-sm">
             Your Trusted Partner in Civil and Structurall Engineering
             Excellence!
           </h4>
@@ -100,9 +102,10 @@ const HomeInfo = () => {
         </div>
 
         <div className="relative text-center font-bold pt-52 ">
-          <p className="p-3 text-md mt-8 capitalize md:text-4xl ">
-            {" "}
-            let's build your career towards Safety,Stability,Sustainability{" "}
+          <p className="p-3 bg-white text-md md:-mt-40 shadow-lg shadow-white capitalize md:text-4xl border-blue-gray-50 border-b-2">
+            {" "}<span className=" p-3 rounded animate-pulse">
+            let's build your career towards <br/><br/> Safety,Stability,Sustainability{" "}
+            </span>
           </p>
         </div>
       </section>
@@ -142,7 +145,7 @@ const HomeInfo = () => {
           <div className="bg-black md:p-10 md:h-screen border-r-4">
             <h1 className="text-center text-blue-700 text-3xl p-4">
               {" "}
-              what you learn
+              What You Will Be Learn
             </h1>
 
             <ul className=" pl-28 md:pl-52 p-3 list-decimal md:text-xl">
@@ -164,7 +167,7 @@ const HomeInfo = () => {
           <div className="bg-black p-10 md:h-screen">
             <h1 className="text-center text-blue-700 text-3xl md:p-4">
               {" "}
-              what you learn
+              What You Will Be Get
             </h1>
 
             <ul className="pl-20 md:pl-52 p-3 list-decimal md:text-xl">
@@ -197,19 +200,24 @@ const HomeInfo = () => {
 
         <div className="relative md:pl-20 font-bold pt-32 font-mono pl-3">
           <h1 className="text-xl mt-5 uppercase md:text-3xl">Eligible Roles</h1>
-          <div className="p-3 text-md mt-8 capitalize md:text-2xl ">
-            <h2> 1.SITE ENGINEER </h2>
-            <h2> 2.PLANNING ENGINEER </h2>
-            <h2> 3.QUALITY CONTROL ENGINNER </h2>
-            <h2> 4.SAFETY ENGINEER </h2>
-            <h2> 5.RESIDENT ENGINEER </h2>
-            <h2> 6.BASIC STRUCTURAL DESIGNER </h2>
-            <h2> 7.QUANITY SURVEYOR </h2>
-            <h1> 8.BILLING ENGINEER </h1>
-            <h1> 9.CIVL ENGINEER </h1>
-            <h1> 10.PROJECT ENGINEER </h1>
+          <div className="p-3 text-md mt-8 capitalize md:text-2xl list-disc ">
+            <h2 className=" list-disc">SITE ENGINEER </h2>
+            <h2 className=" list-disc">PLANNING ENGINEER </h2>
+            <h2 className=" list-disc">QUALITY CONTROL ENGINNER </h2>
+            <h2 className=" list-disc">SAFETY ENGINEER </h2>
+            <h2 className=" list-disc">RESIDENT ENGINEER </h2>
+            <h2 className=" list-disc">BASIC STRUCTURAL DESIGNER </h2>
+            <h2 className=" list-disc">QUANITY SURVEYOR </h2>
+            <h1 className=" list-disc">BILLING ENGINEER </h1>
+            <h1 className=" list-disc">CIViL ENGINEER </h1>
+            <h1 className=" list-disc">PROJECT ENGINEER </h1>
+            <div className="mt-10 text-center bg-yellow-500 text-black animate-bounce">
+         <h2>FREE Demo Session Available</h2>
+         <h2>Limited Seats Per Batch</h2>
+        </div>
           </div>
         </div>
+        
       </section>
 
       <CardWithLink />

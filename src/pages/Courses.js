@@ -50,7 +50,7 @@ function Courses() {
         <li className='md:py-1'>  Project management
   </li>
         <li className='md:py-1'> Quantity Surveying   </li>
-        <li className='md:py-1'>  IConstruction industrial Workshops </li>
+        <li className='md:py-1'>  Construction industrial Workshops </li>
 
         
       </ul>
@@ -97,7 +97,7 @@ function Courses() {
 
   <div className='mt-5 bg-black text-white md:mt-24 md:p-10'>
 
-    <h1 className=' text-center font-bold text-blue-700 '> <span className=' border-b-2 border-blue-500 md:text-3xl'>Course Modules</span></h1>
+    <h1 className=' text-center font-bold text-blue-700 '> <span className=' border-b-2 border-blue-500 md:text-3xl'>You Will Get Bonus</span></h1>
     <div className=' flex flex-row md:block justify-around m-4 p-1 py-10'>
           <div className='rounded-md mx-1'>
             <img className=' bg-cover' src={im} alt=''/>
@@ -118,7 +118,7 @@ function Courses() {
    <div className=' flex flex-row md:block justify-around m-4 p-1 py-10'>
           <div className='rounded-md mx-1'>
             <img src={rnr} alt=''/>
-            <h1 className='text-blue-700 text-3xl'>CIVIL ENGINEER ROLES, RESPONCIABILITES OPPORTINITES IN INDUSTRY</h1>
+            <h1 className='text-blue-700 text-3xl'>Internship</h1>
      
           </div>
           <div>
@@ -134,7 +134,7 @@ function Courses() {
    <div className=' flex flex-row md:block justify-around m-4 p-1 py-10'>
           <div className='rounded-md mx-1'>
             <img src={sited} alt=''/>
-            <h1 className='text-blue-700 text-3xl'>SITE ENGINEERING-DEVELOPMENT</h1>
+            <h1 className='text-blue-700 text-3xl'>Industrial Interactions</h1>
      
           </div>
           <div>
@@ -187,7 +187,7 @@ function Courses() {
    <div className=' flex flex-row md:block justify-around m-4 p-1 py-10'>
           <div className='rounded-md mx-1'>
             <img src={se} alt=''/>
-            <h1 className='text-blue-700 text-3xl'>SITE VISIT-REAL TIME EXPERINCE</h1>
+            <h1 className='text-blue-700 text-3xl'>Professional Skills</h1>
      
           </div>
           <div  >

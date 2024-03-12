@@ -13,32 +13,32 @@ const Experience = () => {
     {
       id: 2,
       src: ad,
-      title: "Advance design",
+      title: "To Become Expert in the field",
       style: "shadow-blue-700",
     },
     {
       id: 3,
-      src: fS,
-      title: "future support",
+      src: sw,
+      title: "Practical and Realtime Learning",
       style: "shadow-blue-500",
     },
    
     {
       id: 5,
       src: sk,
-      title: "we train you for soft skills",
+      title: "We Train You For Advance Constructions",
       style: "shadow-blue-500",
     },
     {
       id: 6,
-      src: sw,
-      title: "trainnig given for softwares ",
+      src:fS,
+      title: "Life Time Placement Support",
       style: "shadow-blue-500",
     },
     {
       id: 7,
       src: vs,
-      title: "improve your vison on future",
+      title: "Structure All Services Under One Roof",
       style: "shadow-blue-500",
     },
     {

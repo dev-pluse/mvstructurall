@@ -1,6 +1,6 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Home from '../../pages/Home';
+import HomeInfo from '../../pages/Home';
 import Contact from '../../pages/Contact';
 import Services from '../../pages/Services';
 import Courses from '../../pages/Courses';
@@ -14,7 +14,7 @@ const FullNav = () => {
          <div className="App w-full h-auto">
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<HomeInfo />} />
         <Route path='/Services' element={<Services/>} />
         <Route path='/courses' element={<Courses />} />
         <Route path='/locations' element={<Locations />} />

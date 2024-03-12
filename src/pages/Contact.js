@@ -118,7 +118,7 @@ const Contact = () => {
           solutions in civil and structural engineering. With a team of
           experienced and highly skilled professionals, we are committed to."
         />
-        <link rel="canonical" href="https://mvstructurall.com/" />
+        <link rel="canonical" href="https://mvstructurall.in/" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1"
@@ -126,7 +126,12 @@ const Contact = () => {
       </Helmet>
       
       
+      <div className='bg-gradient-to-t from-black to-gray-800 text-blue-700 w-full h-1/2 '>
       
+      <h1 className='text-center p-3 text-3xl'> <span className=' border-b-2 border-blue-700'> contact </span>  us</h1>
+              <img src={vc} className=' w-fit left-0 top-0 md:w-1/2 md:ml-96 p-10 shadow-white' alt='vc'/>
+      </div>
+ 
       
         <div
       name="contact"
@@ -190,12 +195,7 @@ const Contact = () => {
       </div>
 
       </div>
-      <div className='h-screen bg-gradient-to-b from-black to-gray-800 text-blue-700 '>
-        <h1 className='text-center p-3 text-3xl'> or</h1>
-      <h1 className='text-center p-3 text-3xl'> <span className=' border-b-2 border-blue-700'> contact </span>  us</h1>
-              <img src={vc} className=' w-fit left-0 top-0 md:w-1/2 md:ml-96 p-10 shadow-white' alt='vc'/>
-      </div>
- 
+     
      
     </div>
   );
